@@ -101,7 +101,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('aadhar') || message.includes("adhar"){
+    else if (message.includes('aadhar') || message.includes("adhar")){
         window.open(`https://devansh-kumar-24.github.io/Nyaay-Sarthi/adhar.html`, "_blank");
         const finalText = "I found some information for " + message ;
         speech.text = finalText;

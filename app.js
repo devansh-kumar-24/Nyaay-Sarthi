@@ -67,7 +67,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('name')) {
-        const finalText = "My name is Inertia";
+        const finalText = "My name is Sahayak";
         speech.text = finalText;
     }
 
@@ -101,7 +101,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('aadhar')){
+    else if (message.includes('aadhar') || message.includes("adhar"){
         window.open(`https://devansh-kumar-24.github.io/Nyaay-Sarthi/adhar.html`, "_blank");
         const finalText = "I found some information for " + message ;
         speech.text = finalText;

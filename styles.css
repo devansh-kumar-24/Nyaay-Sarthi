@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+input {
+    width: calc(100% - 20px); /* Calculate width minus padding */
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: #097054; /* Dark Green */
+    color: #fff; /* White */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #085243; /* Slightly Darker Green */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 10px;
+    }
+
+    input {
+        width: calc(100% - 20px);
+    }
+}
+
+
+
+
+
+
+
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+section{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+  0deg,
+  hsl(151deg 93% 22%) 0%,
+  hsl(116deg 30% 39%) 10%,
+  hsl(91deg 27% 48%) 20%,
+  hsl(72deg 31% 57%) 30%,
+  hsl(55deg 43% 69%) 40%,
+  hsl(43deg 93% 83%) 50%,
+  hsl(38deg 92% 76%) 60%,
+  hsl(34deg 93% 69%) 70%,
+  hsl(30deg 96% 64%) 80%,
+  hsl(25deg 98% 59%) 90%,
+  hsl(19deg 100% 56%) 100%
+);
+  overflow: hidden;
+}
+section .air{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  background-size: 1000px 100px
+}
+section .air.air1{
+  animation: wave 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+section .air.air2{
+  animation: wave2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+section .air.air3{
+  animation: wave 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+section .air.air4{
+  animation: wave2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+@keyframes wave{
+  0%{
+    background-position-x: 0px; 
+  }
+  100%{
+    background-position-x: 1000px; 
+  }
+}
+@keyframes wave2{
+  0%{
+    background-position-x: 0px; 
+  }
+  100%{
+    background-position-x: -1000px; 
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+.main {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .image-container {
+  padding: 10px;
+}
+
+.main .image-container .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .image-container .image img {
+  width: 200px;
+  align-items: center;
+  border-radius: 60%;
+}
+
+.main .image-container h1 {
+  color: #1a5808;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.main .image-container p {
+  color: #eb250b;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 50px;
+  border-radius: 20px;
+  background: rgb(202 253 255 / 50%);
+}
+
+.main .input .talk {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main .input .talk i {
+  font-size: 20px;
+  color: #065c0d;
+}
+
+.main .input .content {
+  color: #04360c;
+  font-size: 15px;
+  margin-right: 20px;
+}

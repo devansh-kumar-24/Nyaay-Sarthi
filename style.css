@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  height: 570px;
+  z-index: 100;
+  background-color: #fef9e4; /* White */
+  padding: 20px;
+
+  margin-top: -50px;
+
+  border-radius: 8px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 480px; /* Set a maximum width for the container */
+  width: 90%; /* Ensure it takes up the available space */
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5%;
+}
+
+input {
+  width: calc(100% - 100px); /* Calculate width minus padding */
+  padding: 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+hr {
+  padding: 0px;
+  position: relative;
+  top: -10px;
+  width: 23%;
+}
+.log {
+  position: relative;
+
+  top: 30px;
+}
+p {
+  position: relative;
+  margin-top: -16px;
+  transition: 100ms;
+}
+p a:hover {
+  color: rgb(9, 111, 220);
+  cursor: pointer;
+}
+p:hover {
+  cursor: pointer;
+  color: rgb(9, 111, 220);
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.216);
+  opacity: 1;
+}
+
+button {
+  margin-top: 5%;
+  width: 20%;
+  background-color: #097054; /* Dark Green */
+  color: #fff; /* White */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #085243; /* Slightly Darker Green */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .login-container {
+    padding: 10px;
+  }
+
+  input {
+    width: calc(100% - 20px);
+  }
+}
+
+HTML CSSResult Skip Results Iframe EDIT ON * {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    0deg,
+    hsl(151deg 93% 22%) 0%,
+    hsl(116deg 30% 39%) 10%,
+    hsl(91deg 27% 48%) 20%,
+    hsl(72deg 31% 57%) 30%,
+    hsl(55deg 43% 69%) 40%,
+    hsl(43deg 93% 83%) 50%,
+    hsl(38deg 92% 76%) 60%,
+    hsl(34deg 93% 69%) 70%,
+    hsl(30, 92%, 62%) 80%,
+    hsl(25, 75%, 59%) 90%,
+    hsl(13, 71%, 61%) 100%
+  );
+  overflow: hidden;
+}
+section .air {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  background-size: 1000px 100px;
+}
+section .air.air1 {
+  animation: wave 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+section .air.air2 {
+  animation: wave2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+section .air.air3 {
+  animation: wave 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+section .air.air4 {
+  animation: wave2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+@keyframes wave {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+@keyframes wave2 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}

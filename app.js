@@ -102,14 +102,14 @@ function speakThis(message) {
     }
 
     else if (message.includes('aadhar')){
-        window.open(`http://127.0.0.1:5501/jarvis/adhar.html`, "_blank");
-        const finalText = "I found some information for " + message + " on google";
+        window.open(`https://devansh-kumar-24.github.io/Nyaay-Sarthi/adhar.html`, "_blank");
+        const finalText = "I found some information for " + message ;
         speech.text = finalText;
     }
    
     else if (message.includes('documents')){
-        window.open(`http://127.0.0.1:5501/wb2/index.html`, "_blank");
-        const finalText = "I found some information for " + message + " on google";
+        window.open(`https://devansh-kumar-24.github.io/Nyaay-Sarthi/home.html`, "_blank");
+        const finalText = "I found some information for " + message;
         speech.text = finalText;
     }
    
